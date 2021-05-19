@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -28,10 +27,6 @@ h1 {
     height: 148px;
 
 }
-.heading {
-    font-weight: 500;
-    font-size: 44px;
-}
 h3 {
     font-size: 36px;
     font-weight: 300;
@@ -46,13 +41,17 @@ h4 {
     color: #1F3F68;
     font-weight: normal;
     margin-bottom: 14px;
+    margin-top: 48px;
 }
 input,
 textarea {
     border: 1px solid #356EAD;
     box-sizing: border-box;
+    height: 72px;
     border-radius: 10px;
     opacity: 0.4;
+    padding-left: 32px;
+
 }
 .button {
     background: #5A98D0;
@@ -64,6 +63,8 @@ textarea {
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
+    height: 72px;
+    margin-top: 72px;
 }
 .mainTopAll {
     min-height: 768px;
@@ -127,7 +128,6 @@ textarea {
 }
 .blockImg {
     align-self: center;
-    margin-bottom: 48px;
 }
 .blockLink {
     font-size: 14px;
@@ -242,6 +242,7 @@ textarea {
 .contactsMid {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 96px;
 }
 .listFooter {
     padding-bottom: 16px;
@@ -250,392 +251,54 @@ textarea {
 .footerHeaderBlock {
     width: 340px;
 }
-
-@media (max-width: 1024px) {
-    .container {
-        padding-left: 32px;
-        padding-right: 32px;
-    }  
-    .mainMidMain {
-        flex-direction: column;
-        align-items: center;
-    }
-    .block {
-        margin-bottom: 32px;
-    }
-    .footer {
-        padding-left: 96px;
-        padding-right: 96px;
-        min-height: 644px;
-        box-sizing: border-box;
-    }
-    .footerHeaderText {
-        width: auto;
-    }
-    .footerHeaderBotton {
-        padding: 5px 30px;
-        margin-left: 32px;
-    }
-    .footerTop {
-        padding-bottom: 64px;
-    }
-    .list {
-        display: unset;
-        justify-content:unset;
-        text-align: left;
-    }
+.contactsTop {
+    padding-top: 42px;
+    background-image: url(img/ContactsTop.png);
+    background-size: 100%;
+    background-position: center;
+    margin: 42px 0;
+    height: 150px;
 }
-
-@media (max-width: 667px) {
-    h1 {
-        font-size: 32px;
-        line-height: 37px;
-        width: auto;
-        height: auto;
-    }
-    .mainGreeting {
-        text-align: center;
-        background-image: none;
-        padding-top: 34px;
-        margin-bottom: 42px;
-    }
-    .header {
-        padding-top: 24px;
-    }
-    .mainGreetingText {
-        width: auto;
-        padding-top: 12px;
-    }
-    .mainGreetingButtom {
-        font-size: 12px;
-        padding: 10px 30px;
-        margin-top: 32px;
-    }
-    .mainTopAll {
-        min-height: 376px;
-        box-sizing: border-box;
-    }
-    h3 {
-        font-size: 24px;
-        line-height: 28px;
-    }
-    .mainMid {
-        padding-top: 48px;
-    }
-    .mainMidMain {
-        padding-top: 32px;
-    }
-    .block {
-        width: auto;
-    }
-    .textMainBottom {
-        width: auto;
-    }
-    .mainBottomImg1Text {
-        font-size: 16px;
-        line-height: 19px;
-        top: 16px;
-        right: 16px;
-    }
-    .mainBottomImgs {
-        margin-top: 16px;
-        justify-content: unset;
-        flex-direction: column;
-    }
-    .container {
-        padding-left: 16px;
-        padding-right: 16px;
-    }  
-    .mainBottom {
-        padding-top: 32px;
-    }
-    .mrgn {
-        margin-right: unset;
-        margin-bottom: 16px;
-    }
-    .footer {
-        margin-top: 64px;
-        padding-left:unset;
-        padding-right: unset;
-        padding-top: 16px;
-        text-align: center;
-        padding-bottom: 32px;
-        min-height: 542px;
-    }
-    .foterTopMain {
-        display:unset;
-        justify-content:unset;
-    }
-    .footerHeaderBotton {
-        margin-left:unset;
-        margin-top: 40px;
-    }
-    .footerTop {
-        padding-bottom: 40px;
-    }
-    .line {
-        margin-bottom: 32px;
-    }
-    .footerRights {
-        padding-top: 16px;
-    }
-    .footerBottom {
-        padding-left: 16px;
-    }
-    .footerHeaderBlock {
-        width: auto;
-    }
-=======
-* {
-    margin: 0;
-    padding: 0;
-}
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-    }
-body {
-    font-family: sans-serif;
-    letter-spacing: 0.05em;
-    font-size: 16px;
-    line-height: 26px;
-}
-p {
-    color: #1F3F68;
-    opacity: 0.6;
-}
-h1 {
-    font-size: 64px;
-    color: #1F3F68;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 74px;
-    letter-spacing: 0.04em;
-    width: 504px;
-    height: 148px;
-
-}
-.heading {
+.contactsTopHeading {
     font-weight: 500;
     font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
 }
-h3 {
-    font-size: 36px;
-    font-weight: 300;
-    line-height: 46px;
-}
-.center {
-    text-align: center;    
-}
-h4 {
+.contactsTopHeadingText {
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.contactsMidContacts {
+    padding: 56px;
     color: #1F3F68;
-    font-weight: normal;
-    margin-bottom: 14px;
 }
-input,
-textarea {
-    border: 1px solid #356EAD;
-    box-sizing: border-box;
+.contactsMidContactsText {
+    width: 300px;
+}
+.contactMidBox {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-    opacity: 0.4;
-}
-.button {
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: uppercase;
-}
-.mainTopAll {
-    min-height: 768px;
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    background-size: 100%;
-}
-.mainTop {
+    padding: 56px;
     display: flex;
     flex-direction: column;
-    height: 100%;
-}
-.header {
-    padding-top: 42px;
-    display: flex;
-    justify-content: space-between;
-}
-.mainGreeting {
-    padding-top: 115px;
-    flex-grow: 1;
-    background-image: url(img/mainGreeting.png);
-    background-repeat: no-repeat;
-    background-size: 48%;
-    background-position: right bottom;
-    margin-bottom: 80px;
-}
-.mainGreetingText {
-    width: 425px;
-    padding-top: 32px;
-}
-.mainGreetingButtom {
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #5A98D0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-    border-radius: 10px;
-    padding: 15px 50px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 71px;
-}
-.mainMid {
-    padding-top: 64px;
-}
-.mainMidMain {
-    padding-top: 64px;
-    display: flex;
-    justify-content: space-between;
-}
-.block {
-    width: 359px;
-    height: 480px;  
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
-    padding: 44px 32px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-}
-.blockImg {
-    align-self: center;
-    margin-bottom: 48px;
-}
-.blockLink {
-    font-size: 14px;
     line-height: 30px;
-    color: #5A98D0;
-    text-decoration: none;
-    padding-top: 28px;
-}
-.mainBottom {
-    padding-top: 64px;
-}
-.textMainBottom {
-    width: 75%;
-    color: black;
-    text-align: center; 
-    margin: 32px auto 64px; 
-    opacity: 1;  
-}
-.mainBottomImg {
-    position: relative;
-}
-.mainBottomImage {
-    width: 100%;
-}
-.mainBottomImg1Text {
-    font-size: 32px;
-    line-height: 46px;
-    text-align: right;
-    opacity: 1;
-    color: #FFFFFF;
-    position: absolute;
-    top: 64px;
-    right: 64px;
-}
-.mainBottomImg2Text {
-    font-size: 28px;
-    line-height: 46px;
-    text-align: left;
-    opacity: 1;
-    color: #FFFFFF;
-    position: absolute;
-    top: 32px;
-    left: 32px;
-}
-.mainBottomImgs {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 32px;
-}
-.mainBottomImages {
-    position: relative;
-    flex-grow: 1;
-}
-.mrgn {
-    margin-right: 32px;
-}
-.footer {
-    background-color: #316099;
-    margin-top: 112px;
-    padding-top: 91px;
-    padding-bottom: 64px;
-    min-height: 657px;
-}
-.footerTop {
-    padding-bottom: 96px;
-}
-.foterTopMain{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footerHeader {
-    color: white;
-}
-.footerHeaderText{
-    color: white;
-    padding-top: 32px;
-    width: 495px;
-}
-.footerHeaderBotton {
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background: #5A98D0;
-    padding: 15px 80px;
-    text-decoration: none;
-    display: inline-block;
+    color: #1F3F68;
 }
-.line {
-    opacity: 0.4;
-    margin-bottom: 64px;
+.contactMidBoxMessage{
+    height: 144px;
 }
-.list {
-    display: flex;
-    justify-content: space-between;
-    color: white;
-    list-style:decimal;
-}
-
-.footerRights {
-    padding-top: 64px;
-    opacity: 0.4;
-    color: white;
-} 
-.contactsMain {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-.contactsMid {
-    display: flex;
-    justify-content: space-around;
-}
-.listFooter {
-    padding-bottom: 16px;
-    padding-left: 32px;
-}
-.footerHeaderBlock {
-    width: 340px;
+.listContact {
+    list-style: none;
+    opacity: 0.6;
 }
 
 @media (max-width: 1024px) {
@@ -655,6 +318,7 @@ textarea {
         padding-right: 96px;
         min-height: 644px;
         box-sizing: border-box;
+        margin-top: 64px;
     }
     .footerHeaderText {
         width: auto;
@@ -671,7 +335,25 @@ textarea {
         justify-content:unset;
         text-align: left;
     }
+    .contactsMid {
+        margin: 0 124px 64px;
+        display: grid;
+    }
+    .contactsTop {
+        background-size: auto;
+        height: 250px;
+        background-repeat: no-repeat;
+    }
+    .header {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .containerMin {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
+
 
 @media (max-width: 667px) {
     h1 {
@@ -741,7 +423,7 @@ textarea {
         margin-bottom: 16px;
     }
     .footer {
-        margin-top: 64px;
+        margin-top: 32px;
         padding-left:unset;
         padding-right: unset;
         padding-top: 16px;
@@ -772,5 +454,31 @@ textarea {
     .footerHeaderBlock {
         width: auto;
     }
->>>>>>> 166a2143fc7be93addca9d74f09dfcbd44c21518
+    .containerMin {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contactsTopHeading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .contactsTopHeadingText {
+        font-size: 16px;
+        margin-top: 32px;
+    }
+    .contactsTop {
+        margin: 0;
+    }
+    .contactMidBox {
+        padding: 35px;
+    }
+    .contactMidBoxInfo {
+        height: 48px;
+    }
+    .button {
+        margin-top: 48px;
+    }
+    .contactsMid {
+        margin-bottom: 32px;
+    }
 }
